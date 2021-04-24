@@ -5,7 +5,7 @@
     the grid container adjust so it would either have 1 column or 3 columns 
     depending on the viewport's size.
 -->
-<html>
+<html lang="en-us">
     <head>
         <meta charset="utf-8">
         <meta name="keywords" content="MPLS, Minneapolis, Twin Cities,Twin Cities Dogboarding, Twin Cities Dog">
@@ -73,6 +73,11 @@
                 background-color: #ffffffcf;
                 border-radius: 10px;
             }
+            aside:hover{
+                background-color: #ff4500bd;
+                height: 325px;
+                color: white;
+            }
             #copyright{
                 width: 275px;
                 margin:auto;
@@ -99,6 +104,7 @@
                     background-position: center;
                 }
                 aside{
+                    transition: all .2s ease-in-out;
                     flex: 1 0 325px;
                     height: auto;
                     margin: 4% 2%;
@@ -112,7 +118,7 @@
                     display: flex;
                     flex-wrap: wrap;
                     width: 100%;
-                    background-image: url(img/dog_bg768.jpeg);
+                    background-image: url(img/dog_bg_768.jpg);
                     background-size: cover;
                     background-position: center;
                 }
@@ -155,11 +161,9 @@
                 <aside>
                     <h2>Price</h2>
                     <h3>Weekly Boarding</h3>
-                    <p>$425 - 7 days [24 hours from drop-off time] </li>
+                    <p>$425 - 7 days [24 hours from drop-off time] </p>
                     <h3>Daily Rate: </h3>
                     <p>$75 - 1 day [24 hours from drop-off time</p>
-                    
-                    </ul>
                 </aside>
                 <aside>
                     <h2>Hours of Operation</h2>
